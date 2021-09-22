@@ -90,7 +90,7 @@ function LinkPreview(props) {
 
   if (!isUrlValid) {
     console.error('LinkPreview Error: You need to provide url in props to render the component');
-    return null;
+    return React__default.createElement("div", null);
   }
 
   if (render) {
